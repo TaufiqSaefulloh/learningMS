@@ -1,0 +1,190 @@
+/* ------------------------- */
+/* Page Header Start */
+/* ------------------------- */
+.page-header img {
+  max-width: 100%;
+  filter: brightness(80%);
+  height: auto;
+}
+
+.page-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 15px 0;
+  z-index: 9999;
+  background-color: #FFA915;
+}
+
+.page-header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-header button svg {
+  flex-shrink: 0;
+  margin-left: 5px;
+  fill: currentColor;
+}
+
+.page-header.is-sticky {
+  position: fixed;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  backdrop-filter: blur(10px);
+  animation: slideDown 0.35s ease-out;
+}
+
+.page-header.is-sticky img {
+  max-width: 80%;
+}
+
+
+/* ------------------------- */
+/* Page Header End */
+/* ------------------------- */
+
+
+/* ------------------------- */
+/* footer section start */
+/* ------------------------- */
+#footer-sec {
+  background: #ffffff;
+}
+
+.logo-footer {
+  max-width: 100%;
+}
+
+.social-links h2 {
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.social-links img {
+  padding-bottom: 25px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #777777;
+}
+
+.social-icons a {
+  color: #777777;
+}
+
+.social-icons a:hover {
+  color: #FFA915;
+}
+
+.social-icons a i {
+  /* box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px; */
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  border-radius: 3px;
+  color: #FFA915;
+  font-size: 16px;
+  margin-right: 12px;
+}
+
+li {
+  list-style: none;
+}
+
+.useful-link h2 {
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.useful-link img {
+  padding-bottom: 15px;
+}
+
+.use-links {
+  line-height: 32px;
+}
+
+.use-links li i {
+  font-size: 14px;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  color: #898989;
+}
+
+.use-links li a {
+  color: #303030;
+  font-size: 15px;
+  font-weight: 500;
+  color: #777777;
+}
+
+.use-links li a:hover {
+  color: #FFA915;
+}
+
+.address h2 {
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.address img {
+  padding-bottom: 15px;
+}
+
+.address-links li a {
+  color: #303030;
+  font-size: 15px;
+  font-weight: 500;
+  color: #777777;
+}
+
+.address-links li i {
+  font-size: 16px;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  color: #FFA915;
+}
+
+.address-links li i:nth-child(1) {
+  padding-top: 9px;
+}
+
+.address-links .address1 {
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+}
+
+.address-links {
+  line-height: 32px;
+  color: #777777;
+}
+
+.copyright {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+}
+
+
+.copyright-text {
+  position: absolute;
+  bottom: 0;
+  top: 50px;
+  /* Sesuaikan dengan posisi vertikal teks */
+  left: 0;
+  right: 0;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+}
+
+/* ------------------------- */
+/* footer section end */
+/* ------------------------- */
